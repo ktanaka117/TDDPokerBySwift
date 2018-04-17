@@ -24,5 +24,9 @@ class TDDPokerBySwiftTests: XCTestCase {
         let card1 = Card(rank: .ace, suit: .heart)
         let card2 = Card(rank: .two, suit: .heart)
         XCTAssertTrue(card1.hasSameSuit(card2))
+        
+        let card3 = Card(rank: .ace, suit: .spade)
+        let card4 = Card(rank: .ace, suit: .heart)
+        XCTAssertFalse(card3.hasSameSuit(card4))
     }
 }
