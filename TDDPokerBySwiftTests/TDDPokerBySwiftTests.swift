@@ -21,12 +21,15 @@ class TDDPokerBySwiftTests: XCTestCase {
     }
     
     func testHasSameSuit() {
-        let card1 = Card(rank: .ace, suit: .heart)
-        let card2 = Card(rank: .two, suit: .heart)
+        var card1: Card
+        var card2: Card
+        
+        card1 = Card(rank: .ace, suit: .heart)
+        card2 = Card(rank: .two, suit: .heart)
         XCTAssertTrue(card1.hasSameSuit(card2))
         
-        let card3 = Card(rank: .ace, suit: .spade)
-        let card4 = Card(rank: .ace, suit: .heart)
-        XCTAssertFalse(card3.hasSameSuit(card4))
+        card1 = Card(rank: .ace, suit: .spade)
+        card2 = Card(rank: .two, suit: .heart)
+        XCTAssertFalse(card1.hasSameSuit(card2))
     }
 }
