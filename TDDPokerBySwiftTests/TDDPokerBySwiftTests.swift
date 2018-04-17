@@ -19,4 +19,10 @@ class TDDPokerBySwiftTests: XCTestCase {
         card = Card(rank: .jack, suit: .spade)
         XCTAssertEqual(card.notation, "J♠")
     }
+    
+    func testHasSameSuit() {
+        let card1 = Card(rank: .ace, suit: .heart)
+        let card2 = Card(rank: .two, suit: .heart)
+        XCTAssertTrue(card1.hasSameSuit(card2))
+    }
 }
