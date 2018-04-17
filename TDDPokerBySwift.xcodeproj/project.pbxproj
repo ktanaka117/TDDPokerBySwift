@@ -13,6 +13,7 @@
 		959BD1D020863F2C008C6D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959BD1CF20863F2C008C6D5B /* Assets.xcassets */; };
 		959BD1D320863F2C008C6D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959BD1D120863F2C008C6D5B /* LaunchScreen.storyboard */; };
 		959BD1DE20863F2D008C6D5B /* TDDPokerBySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BD1DD20863F2D008C6D5B /* TDDPokerBySwiftTests.swift */; };
+		959BD1E920864302008C6D5B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BD1E820864302008C6D5B /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		959BD1D920863F2D008C6D5B /* TDDPokerBySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDPokerBySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		959BD1DD20863F2D008C6D5B /* TDDPokerBySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPokerBySwiftTests.swift; sourceTree = "<group>"; };
 		959BD1DF20863F2D008C6D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959BD1E820864302008C6D5B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				959BD1C820863F2C008C6D5B /* AppDelegate.swift */,
 				959BD1CA20863F2C008C6D5B /* ViewController.swift */,
+				959BD1E820864302008C6D5B /* Card.swift */,
 				959BD1CC20863F2C008C6D5B /* Main.storyboard */,
 				959BD1CF20863F2C008C6D5B /* Assets.xcassets */,
 				959BD1D120863F2C008C6D5B /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				959BD1CB20863F2C008C6D5B /* ViewController.swift in Sources */,
+				959BD1E920864302008C6D5B /* Card.swift in Sources */,
 				959BD1C920863F2C008C6D5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
