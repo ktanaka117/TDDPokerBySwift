@@ -64,4 +64,11 @@ class TDDPokerBySwiftTests: XCTestCase {
             Card(rank: .jack, suit: .club)
         )
     }
+    
+    func testIsPair() {
+        let card1 = Card(rank: .king, suit: .spade)
+        let card2 = Card(rank: .king, suit: .heart)
+        let hand = Hand(cards: [card1, card2])
+        XCTAssertTrue(hand.isPair)
+    }
 }
