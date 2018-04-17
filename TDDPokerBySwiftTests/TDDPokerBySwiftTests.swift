@@ -10,18 +10,6 @@ import XCTest
 @testable import TDDPokerBySwift
 
 class TDDPokerBySwiftTests: XCTestCase {
-    func testInitializeCard() {
-        var card: Card
-        
-        card = Card(rank: .three, suit: .heart)
-        XCTAssertEqual(card.rank, .three)
-        XCTAssertEqual(card.suit, .heart)
-        
-        card = Card(rank: .jack, suit: .spade)
-        XCTAssertEqual(card.rank, .jack)
-        XCTAssertEqual(card.suit, .spade)
-    }
-    
     func testCardNotation() {
         var card: Card
         
