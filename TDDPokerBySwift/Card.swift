@@ -9,13 +9,6 @@
 import Foundation
 
 struct Card {
-    enum Suit: String {
-        case spade   = "♠"
-        case heart   = "♥"
-        case club    = "♣"
-        case diamond = "♦"
-    }
-    
     enum Rank: String {
         case ace   = "A"
         case two   = "2"
@@ -32,8 +25,15 @@ struct Card {
         case king  = "K"
     }
     
-    let suit: Suit
+    enum Suit: String {
+        case spade   = "♠"
+        case heart   = "♥"
+        case club    = "♣"
+        case diamond = "♦"
+    }
+    
     let rank: Rank
+    let suit: Suit
     
     var notation: String {
         return rank.rawValue + suit.rawValue
