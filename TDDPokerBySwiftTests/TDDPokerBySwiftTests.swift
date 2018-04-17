@@ -53,5 +53,9 @@ class TDDPokerBySwiftTests: XCTestCase {
         card1 = Card(rank: .jack, suit: .club)
         card2 = Card(rank: .jack, suit: .club)
         XCTAssertEqual(card1, card2)
+        
+        card1 = Card(rank: .queen, suit: .diamond)
+        card2 = Card(rank: .jack, suit: .club)
+        XCTAssertNotEqual(card1, card2)
     }
 }
