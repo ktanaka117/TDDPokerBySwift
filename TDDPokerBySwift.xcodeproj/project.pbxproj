@@ -14,6 +14,7 @@
 		959BD1D320863F2C008C6D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959BD1D120863F2C008C6D5B /* LaunchScreen.storyboard */; };
 		959BD1DE20863F2D008C6D5B /* TDDPokerBySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BD1DD20863F2D008C6D5B /* TDDPokerBySwiftTests.swift */; };
 		959BD1E920864302008C6D5B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BD1E820864302008C6D5B /* Card.swift */; };
+		959BD1EB208695FB008C6D5B /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BD1EA208695FB008C6D5B /* Hand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		959BD1DD20863F2D008C6D5B /* TDDPokerBySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPokerBySwiftTests.swift; sourceTree = "<group>"; };
 		959BD1DF20863F2D008C6D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		959BD1E820864302008C6D5B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		959BD1EA208695FB008C6D5B /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				959BD1C820863F2C008C6D5B /* AppDelegate.swift */,
 				959BD1CA20863F2C008C6D5B /* ViewController.swift */,
 				959BD1E820864302008C6D5B /* Card.swift */,
+				959BD1EA208695FB008C6D5B /* Hand.swift */,
 				959BD1CC20863F2C008C6D5B /* Main.storyboard */,
 				959BD1CF20863F2C008C6D5B /* Assets.xcassets */,
 				959BD1D120863F2C008C6D5B /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959BD1EB208695FB008C6D5B /* Hand.swift in Sources */,
 				959BD1CB20863F2C008C6D5B /* ViewController.swift in Sources */,
 				959BD1E920864302008C6D5B /* Card.swift in Sources */,
 				959BD1C920863F2C008C6D5B /* AppDelegate.swift in Sources */,
