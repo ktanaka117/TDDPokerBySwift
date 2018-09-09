@@ -14,4 +14,8 @@ struct Hand {
     var isPair: Bool {
         return cards[0].rank == cards[1].rank
     }
+
+    var isFlush: Bool {
+        return cards[0].suit == cards[1].suit
+    }
 }
